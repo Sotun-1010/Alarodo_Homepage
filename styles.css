@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+.mode-bg {
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+:root {
+    --clr-blue: #2A4DD0;
+    --clr-green: #4CA154;
+    --clr-black: #111729;
+    --clr-grey: #223344;
+    --clr-light-grey: #909193;
+    --clr-cream: #F2F9FE;
+    --clr-white: #FFFFFF;
+}
+
+
+body {
+    background-color: var(--clr-cream);
+    font-family: 'Poppins', sans-serif;
+}
+
+#menu-list {
+    color: var(--clr-grey);
+}
+
+#hamburger, #cancel {
+    color: var(--clr-black);
+}
+
+#section {
+    background-color: var(--clr-white);
+}
+
+#section ul {
+    color: var(--clr-grey);
+}
+
+.text-1 {
+    color: var(--clr-black);
+}
+
+.text-2 {
+    color: var(--clr-grey);
+}
+
+.text-3 {
+    color: var(--clr-light-grey);
+}
+
+#svgg {
+    fill: var(--clr-grey)
+}
+
+#moon, #section-moon {
+    fill: var(--clr-grey);
+}
+
+.text-4 p {
+    color: var(--clr-light-grey);
+}
+
+.dark-mode {
+    --clr-cream: #333333;
+    --clr-black: #fff;
+    --clr-light-grey: #909193;
+    --clr-grey: #fff;
+    --clr-white: #333333;
+}
