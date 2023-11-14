@@ -5,7 +5,12 @@
 </div>
 
 <div align="center">
+  
   <h3>
+    <a href="https://alarodo-homepage-by-sotun.netlify.app/">
+      Demo
+    </a>
+    <span> | </span>
     <a href="https://github.com/Sotun-1010/Alarodo-Homepage">
       Solution
     </a>
@@ -34,6 +39,7 @@
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
+-Where can I find your demo? You can find my demo [here](https://alarodo-homepage-by-sotun.netlify.app/).
 - What was your experience? It is my first tailwind project. I have been able to master tailwind to an extent through this project, and i can say i quite good at this, although there's always room for improvement. The original project requires pure css but i decided to use tailwind and i customized some part of the design to my own taste.
 - What have you learned/improved? My knowledge of Tailwind
 - Your wisdom? :) Keep pushing as always
