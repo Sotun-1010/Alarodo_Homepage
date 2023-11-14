@@ -47,6 +47,7 @@ body {
 
 .text-2 {
     color: var(--clr-grey);
+    font-size: 4rem;
 }
 
 .text-3 {
@@ -71,4 +72,10 @@ body {
     --clr-light-grey: #909193;
     --clr-grey: #fff;
     --clr-white: #333333;
+}
+
+@media screen and (max-width: 558px) {
+    .text-2 {
+        font-size: 2rem; 
+    }  
 }
